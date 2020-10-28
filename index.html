@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="css/spectrogram.css" media="screen" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>SpectrogramJS</title>
+<!--    // Webpack-->
+    <script src="https://unpkg.com/lodash@4.16.6"></script>
+</head>
+
+<body>
+    <div id="vis" class="spectrogram"></div>
+
+<!--    // SpectrogramJS library-->
+    <script type="text/javascript" src="js/d3.v5.min.js"></script>
+    <script type="text/javascript" src="js/spectrogram.js"></script>
+<!--    // New Spectrogram-->
+    <script>
+        let spectrogram = new Spectrogram('data/bird_short.ogg', "#vis", {
+            width: 600,
+            height: 300
+        });
+    </script>
+<!--    Webpack-->
+    <script src="./src/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "sprint1",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.3.0",
+    "webpack-cli": "^4.1.0"
+  },
+  "dependencies": {
+    "canvas-to-blob": "^1.0.0",
+    "file-saver": "^2.0.2"
+  }
+}
